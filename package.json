@@ -1,0 +1,21 @@
+{
+  "name": "tree-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Greg Tatum",
+  "license": "MIT",
+  "devDependencies": {
+    "gl-now": "^1.4.0",
+    "glslify": "^1.6.0"
+  },
+  "browserify": {
+    "transform": [
+      "6to5ify",
+      "glslify"
+    ]
+  }
+}
