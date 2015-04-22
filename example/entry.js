@@ -1,3 +1,5 @@
 var CreateApp = require('../lib/app')
 
-CreateApp()
+var app = CreateApp()
+	
+app.loop.start()

@@ -28,9 +28,7 @@ function consoleMat( els, decimalPlaces ) {
 			console.table( results );
 			results = [];
 		}
- 
 	}
- 
 }
 
 module.exports = window.consoleMat = consoleMat
