@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "beefy example/entry.js --open -d"
+    "start": "budo example/entry.js --verbose --live | garnish"
   },
   "author": "Greg Tatum",
   "license": "MIT",
   "devDependencies": {
     "babelify": "^5.0.4",
+    "budo": "^4.0.0",
     "canvas-fit": "^1.2.0",
+    "garnish": "^2.1.3",
     "gl-buffer": "^2.1.1",
     "gl-context": "^0.1.1",
     "gl-geometry": "^1.0.3",
@@ -18,9 +20,12 @@
     "gl-matrix": "^2.1.0",
     "gl-now": "^1.4.0",
     "gl-shader": "^4.0.1",
+    "gl-shader-config": "git://github.com/tatumcreative/gl-shader-config.git",
     "gl-vao": "^1.2.0",
     "glslify": "^2.0.1",
+    "immutable-graph": "git://github.com/tatumcreative/immutable-graph.git",
     "poem-loop": "^1.0.4",
+    "poem-manifests": "^1.2.2",
     "xtend": "^4.0.0"
   },
   "browserify": {
@@ -28,5 +33,9 @@
       "babelify",
       "glslify"
     ]
+  },
+  "dependencies": {
+    "lodash": "^3.8.0",
+    "shallow-equals": "0.0.0"
   }
 }
