@@ -22,6 +22,7 @@
     "gl-shader": "^4.0.1",
     "gl-shader-config": "git://github.com/tatumcreative/gl-shader-config.git",
     "gl-vao": "^1.2.0",
+    "gl-vignette-background": "^1.0.4",
     "glslify": "^2.0.1",
     "immutable-graph": "git://github.com/tatumcreative/immutable-graph.git",
     "poem-loop": "^1.0.4",
@@ -35,6 +36,7 @@
     ]
   },
   "dependencies": {
+    "d3": "^3.5.5",
     "lodash": "^3.8.0",
     "shallow-equals": "0.0.0"
   }
