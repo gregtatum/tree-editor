@@ -25,6 +25,7 @@
     "gl-vignette-background": "^1.0.4",
     "glslify": "^2.0.1",
     "immutable-graph": "git://github.com/tatumcreative/immutable-graph.git",
+    "lodash.assign": "^3.1.0",
     "poem-loop": "^1.0.4",
     "poem-manifests": "^1.2.2",
     "xtend": "^4.0.0"
