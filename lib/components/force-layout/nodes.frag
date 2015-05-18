@@ -1,5 +1,7 @@
 precision mediump float;
 
+varying vec3 vColor;
+
 void main() {
 
 	// Map coord range ( [0,0] , [1,1] ) => ( [-1,-1], [1,1] )
@@ -13,7 +15,8 @@ void main() {
 	);
 
 	float mask = smoothstep( 0.8, 0.9, coordLength );
-	vec3 fill = vec3( 0.0, 0.5, 0.8 );
+	// vec3 fill = vec3( 0.0, 0.5, 0.8 );
+	vec3 fill = vColor;
 	vec3 stroke = vec3( 1.0, 1.0, 1.0 );
 	
 	vec3 color = fill * (1.0 - mask) + stroke * mask;
