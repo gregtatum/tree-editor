@@ -10,8 +10,8 @@ var loader = ManifestLoader( Manifests, {
 
 loader.emitter.on("load", function( e ) {
 	
-	var app = e.graph;
+	var app = e.graph
 	app.loop.start()
-});
+})
 
 loader.load( "treeEditor" )
